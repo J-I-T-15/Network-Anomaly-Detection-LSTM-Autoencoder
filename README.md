@@ -23,3 +23,23 @@ The dataset used in this project is the **UNSW-NB15** dataset, available on Kagg
 
 ## Project Structure
 
+Network-Anomaly-Detection-LSTM-Autoencoder/
+│
+├── data/ # Dataset files
+│ ├── UNSW-NB15_1.csv
+│ └── UNSW-NB15_2.csv
+│
+├── notebooks/ # Jupyter notebooks
+│ ├── 01_data_preprocessing.ipynb
+│ ├── 02_lstm_autoencoder.ipynb
+│ ├── 03_oc_svm.ipynb
+│ └── 04_ls_svm.ipynb
+│
+├── scripts/ # Python scripts
+│ ├── data_preprocessing.py
+│ ├── lstm_autoencoder.py
+│ ├── oc_svm.py
+│ └── ls_svm.py
+│
+├── requirements.txt # Python dependencies
+└── README.md # Project overview
